@@ -1,0 +1,31 @@
+2023-03-15 00:25:02.882  INFO 4660 --- [SpringApplicationShutdownHook] j.LocalContainerEntityManagerFactoryBean : Closing JPA EntityManagerFactory for persistence unit 'default'
+2023-03-15 00:25:02.885  INFO 4660 --- [SpringApplicationShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown initiated...
+2023-03-15 00:25:02.886  INFO 4660 --- [SpringApplicationShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown completed.
+2023-03-15 10:08:34.659  INFO 27740 --- [main] c.warehouse.service.WarehouseServiceAPI  : Starting WarehouseServiceAPI using Java 17.0.4.1 on RSS with PID 27740 (S:\Downloads\_Knowledge\__PER SCHOLAS\_Capstone Project\FinalProject\whspring_server-master\target\classes started by Admin in S:\Downloads\_Knowledge\__PER SCHOLAS\_Capstone Project\FinalProject\whspring_server-master)
+2023-03-15 10:08:34.661  INFO 27740 --- [main] c.warehouse.service.WarehouseServiceAPI  : No active profile set, falling back to 1 default profile: "default"
+2023-03-15 10:08:34.975  INFO 27740 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2023-03-15 10:08:35.019  INFO 27740 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 40 ms. Found 10 JPA repository interfaces.
+2023-03-15 10:08:35.260  INFO 27740 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8080 (http)
+2023-03-15 10:08:35.264  INFO 27740 --- [main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2023-03-15 10:08:35.264  INFO 27740 --- [main] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.65]
+2023-03-15 10:08:35.322  INFO 27740 --- [main] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2023-03-15 10:08:35.322  INFO 27740 --- [main] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 638 ms
+2023-03-15 10:08:35.392  INFO 27740 --- [main] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [name: default]
+2023-03-15 10:08:35.410  INFO 27740 --- [main] org.hibernate.Version                    : HHH000412: Hibernate ORM core version 5.6.10.Final
+2023-03-15 10:08:35.463  INFO 27740 --- [main] o.hibernate.annotations.common.Version   : HCANN000001: Hibernate Commons Annotations {5.1.2.Final}
+2023-03-15 10:08:35.503  INFO 27740 --- [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
+2023-03-15 10:08:35.566  INFO 27740 --- [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
+2023-03-15 10:08:35.571  INFO 27740 --- [main] org.hibernate.dialect.Dialect            : HHH000400: Using dialect: org.hibernate.dialect.MySQL5InnoDBDialect
+2023-03-15 10:08:35.976  INFO 27740 --- [main] o.h.e.t.j.p.i.JtaPlatformInitiator       : HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2023-03-15 10:08:35.980  INFO 27740 --- [main] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2023-03-15 10:08:36.331  WARN 27740 --- [main] JpaBaseConfiguration$JpaWebConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2023-03-15 10:08:36.423  INFO 27740 --- [main] o.s.s.web.DefaultSecurityFilterChain     : Will secure any request with [org.springframework.security.web.session.DisableEncodeUrlFilter@57ac2910, org.springframework.security.web.context.request.async.WebAsyncManagerIntegrationFilter@3a663a45, org.springframework.security.web.context.SecurityContextPersistenceFilter@544e6b, org.springframework.security.web.header.HeaderWriterFilter@19f99aaf, org.springframework.web.filter.CorsFilter@e296794, org.springframework.security.web.authentication.logout.LogoutFilter@1642968c, com.warehouse.service.security.jwt.AuthTokenFilter@116915f1, org.springframework.security.web.savedrequest.RequestCacheAwareFilter@65a66a75, org.springframework.security.web.servletapi.SecurityContextHolderAwareRequestFilter@5a07ae2f, org.springframework.security.web.authentication.AnonymousAuthenticationFilter@988c126, org.springframework.security.web.session.SessionManagementFilter@72b53f27, org.springframework.security.web.access.ExceptionTranslationFilter@570127fa, org.springframework.security.web.access.intercept.FilterSecurityInterceptor@2ecc4be7]
+2023-03-15 10:08:36.524  INFO 27740 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8080 (http) with context path ''
+2023-03-15 10:08:36.529  INFO 27740 --- [main] c.warehouse.service.WarehouseServiceAPI  : Started WarehouseServiceAPI in 2.055 seconds (JVM running for 2.426)
+2023-03-15 10:09:19.700  INFO 27740 --- [http-nio-8080-exec-2] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2023-03-15 10:09:19.700  INFO 27740 --- [http-nio-8080-exec-2] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2023-03-15 10:09:19.701  INFO 27740 --- [http-nio-8080-exec-2] o.s.web.servlet.DispatcherServlet        : Completed initialization in 1 ms
+2023-03-15 12:52:20.048 ERROR 27740 --- [http-nio-8080-exec-5] c.w.s.security.jwt.AuthEntryPointJwt     : Unauthorized error: Full authentication is required to access this resource
+2023-03-15 12:59:15.097  INFO 27740 --- [SpringApplicationShutdownHook] j.LocalContainerEntityManagerFactoryBean : Closing JPA EntityManagerFactory for persistence unit 'default'
+2023-03-15 12:59:15.100  INFO 27740 --- [SpringApplicationShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown initiated...
+2023-03-15 12:59:15.101  INFO 27740 --- [SpringApplicationShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown completed.
